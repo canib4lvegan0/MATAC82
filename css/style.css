@@ -1,0 +1,236 @@
+body {
+    background-color: #fc9955;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9d595b;
+}
+
+h1 {
+    font-family: Carlito, serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+p,
+ul,
+li,
+label {
+    font-family: "Courier 10 Pitch", serif;
+    color: #201818;
+    text-align: center;
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+#header {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-image: url("../images/quilombo-furadinho.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#header:hover {
+    opacity: 0.9;
+    filter: grayscale(200%);
+}
+
+#header:active {
+    filter: sepia(100%);
+}
+
+#header h1 {
+    position: relative;
+    top: 40%;
+    color: #ffffff;
+    font-size: 6em;
+}
+
+.pages {
+    width: auto;
+    height: auto;
+    padding: 10px 60px;
+    margin: 40px 0;
+}
+
+.pages h1 {
+    color: #201818;
+    font-size: 50px;
+}
+
+#home ul li {
+    height: 300px;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 7px 0 #201818;
+    opacity: 0.9;
+}
+
+#home ul li img {
+    height: 250px;
+    width: auto;
+    display: inline;
+}
+
+#home ul li p {
+    font-size: 15px;
+    color: #9d595b
+}
+
+#home ul li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#display-map {
+    display: table-cell;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#display-map img {
+    width: 100%;
+    height: auto;
+}
+
+#display-table {
+    display: table-cell;
+    width: 50%;
+    height: auto;
+    vertical-align: top;
+}
+
+#display-table table {
+    min-width: 50%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+}
+
+table th {
+    background-color: #9d595b;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+table td {
+    background-color: #ffffff;
+    padding: 4px;
+    color: #201818;
+}
+
+#display-table a:hover {
+    text-decoration: underline;
+    color: #201818
+}
+
+#display-table a:active {
+    font-weight: bold;
+}
+
+#contact form {
+    margin: 0 auto;
+    width: 600px;
+}
+
+#contact form label {
+    font-style: italic;
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#contact input {
+    width: 400px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+#contact input[type=text],
+#contact input[type=email] {
+    border: 1px solid #9d595b;
+    background-color: #ffffff;
+    color: #201818;
+}
+
+#contact input[type=submit] {
+    width: 200px;
+    height: 40px;
+    background-color: #201818;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+#contact input[type=submit]:hover {
+    background-color: #9d595b;
+}
+
+#contact input[type=submit]:active {
+    background-color: #ffffff;
+    color: #201818;
+}
+
+#footer {
+    text-align: center;
+    vertical-align: top;
+    padding-top: 40px;
+}
+
+.icon-social {
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.icon-social:hover {
+    filter: invert();
+}
+
+#footer p {
+    font-size: 15px;
+}
+
+#libras img {
+    position: fixed;
+    bottom: 10%;
+    right: 0;
+    width: 40px;
+    height: auto;
+    filter: grayscale(100);
+}
+
+#libras img:hover {
+    filter: grayscale(0);
+}
