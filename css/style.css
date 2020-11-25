@@ -38,6 +38,7 @@ label {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    box-shadow: 0 0 4px 0 #201818
 }
 
 #header:hover {
