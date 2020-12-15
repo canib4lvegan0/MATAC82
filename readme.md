@@ -1,6 +1,8 @@
 # MATC82 - T01 - SISTEMAS WEB
+Robson Santos Sousa
 
 ### Micro entrega HTML e CSS
+
 ____
 **Tópicos obrigatórios:**
 
@@ -33,29 +35,29 @@ ____
 - slide base HTML 5 [https://ava.ufba.br/pluginfile.php/769727/mod_resource/content/1/08_HTML5.pdf]
 - link base HTML 4 to HTML 5 [http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/html/html5_migration.asp.html]
 
-- Migrar site de html4.x para html5
-- Aplicar elementos de estrutura e semântica adequada
-- datalist
-- Autocomplete
-- Autofocus
-- Placeholder
+- Migrar site de html4.x para html5    DONE
+- Aplicar elementos de estrutura e semântica adequada [pg11] until [pg19]   DONE
+- Datalist [pg23]       DONE
+- Autocomplete [pg33]   DONE
+- Autofocus [pg33]      DONE 
+- Placeholder [pg34]    DONE
+- Formaction [pg37]     DONE
 
 *JavaScript*
 
 - slide JavaScript [https://ava.ufba.br/pluginfile.php/769140/mod_resource/content/1/06_JavaScript.pdf]
 
-- Caixa de mensagem: alert [pg26]
-- Caixa de mensagem: confirm [pg27]
-- Caixa de mensagem: prompt [pg28]
-- Evento onClick [pg35]
-- Evento onSubmit [pg36]
-- Evento onLoad [pg37]
-- Evento onMouseOver [pg37]
-- Evento onkeyup [pg40]
-- Evento onkeydown [pg40]
-- Evento onkeypress [pg40]
-- Função com e sem retorno [pg29] [pg30]
-- OBS: adicionar outros eventos (onchange, onmousemove, onselect, onunload)
+- Caixa de mensagem: alert [pg26]           DONE
+- Caixa de mensagem: confirm [pg27]         DONE
+- Caixa de mensagem: prompt [pg28]          DONE
+- Evento onClick [pg35]                     DONE      
+- Evento onSubmit [pg36]                    DONE
+- Evento onLoad [pg37]                      DONE
+- Evento onMouseOver [pg37]                 DONE
+- Evento onkeyup [pg40]                     DONE
+- Evento onkeydown [pg40]                   DONE
+- Evento onkeypress [pg40]                  DONE
+- Função com e sem retorno [pg29] [pg30]    DONE
 
 
 Ps: Demais elementos podem ser usados e serão avaliados como bônus em caso de não obtenção da nota total.
