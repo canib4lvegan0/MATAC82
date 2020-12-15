@@ -62,3 +62,17 @@ ____
 
 Ps: Demais elementos podem ser usados e serão avaliados como bônus em caso de não obtenção da nota total.
 A entrega deve ser OBRIGATORIAMENTE em arquivo zip contendo todos arquivos necessários para correta funcionalidade.
+
+_________________
+Modificações para segunda entrega:
+
+no js:
+- comentaários no js;
+- adicioanar função de validação de campo nome no form;
+- melhora na lógica de carregar resultados de busca na tabela;
+
+no ccs
+- remover bordas de teste de alguns elementos;
+
+no html
+- adicionar conteúdo (texto e imagens) no site;
